@@ -1,0 +1,79 @@
+\documentclass[a4paper]{article}
+%Usage
+\usepackage{datetime} 
+\usepackage{amsmath}
+\usepackage{mathptmx}
+\usepackage{hyperref}
+\usepackage{graphicx, wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\graphicspath{ {images/} }
+\usepackage{verbatim}
+\usepackage{geometry}
+\usepackage{wrapfig}
+\geometry{a4paper, top=1cm, bottom=1cm, margin=1.5cm , headheight=12.5pt}
+\usepackage{booktabs}
+\usepackage[latin1]{inputenc}
+% u.a. Deutsche Sonderzeichen.
+  % Je nach genutztem System wird ein anderer Encodierer benötigt:
+  % \usepackage[Encodierer]{inputenc}
+  % Encodierer		System
+  % latin1, latin9	UNIX, Linux
+  % ansinew		Windows
+  % applemac		Apple
+\usepackage{pxfonts}
+\usepackage{amssymb}
+
+\hypersetup{
+    pdftitle={Semester Arbeit},    % title
+    pdfauthor={Roberto Cuervo Alvarez},     % author
+    pdfauthor={Konrad Höpli},     % author
+    pdfsubject={Augmented Reality Android App},   % subject of the document
+    pdfcreator={pdftex}  % creator of the document
+}
+%Header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[LO]{\leftmark}
+\fancyhead[RE]{\rightmark}
+\cfoot{Physik 1: Mechanik}
+\lfoot{Roberto Cuervo \'Alvarez}
+\rfoot{\ddmmyyyydate\today}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+
+%begin Document
+\begin{document}
+%Title
+\begin{titlepage}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\vspace*{\stretch{1}}
+\rule{\linewidth}{1pt}
+\begin{flushright}
+\Huge Semester Arbeit \\[14pt]
+\Huge Augmented Reality Android App \\[14pt]
+HSR HS2016\\Roberto Cuervo \'Alvarez\\Konrad Höpli
+\end{flushright}
+\rule{\linewidth}{2pt}
+\vspace*{\stretch{2}}
+\pagenumbering{gobble}
+\end{titlepage}
+
+\newpage
+\pagenumbering{arabic}
+%Table of contents
+\renewcommand*\contentsname{Inhaltsverzeichnis}
+\tableofcontents
+\newpage
+%Table of images
+\renewcommand*\listfigurename{Abbildungsverzeichnis}
+\listoffigures
+\newpage
+
+\section{Introduction}
+\subsection{Introduction}
+\subsubsection{Introduction}
+\end{document}
