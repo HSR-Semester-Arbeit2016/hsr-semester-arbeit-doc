@@ -9,6 +9,7 @@
 *.fmt
 *.fot
 *.cb
+*Sicherungskopie*
 *.cb2
 
 ## Intermediate documents:
